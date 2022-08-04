@@ -7,15 +7,15 @@ An autonomous mobile robot will be designed to follow a line course that will in
 ## Contents
 This repo contains all files needed to understand the functionality of the robot as well as have the robot built. A description of the folder contents can be found below:
 
-* [Datasheets](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main/Docs) - Documentation which may include schematics, datasheets and manuals
+* [Datasheets](https://gitlab.com/wmbhea001/eee3099s-group7/-/tree/main/Datasheets) - Documentation which may include schematics, datasheets and manuals
 
-* [Firmware](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main/Firmware) - Source code for the robot's software interface. 
+* [Firmware](https://gitlab.com/wmbhea001/eee3099s-group7/-/tree/main/Firmware) - Source code for the robot's software interface. 
 
-* [Hardware](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main/PCB) - Contains circuit diagrams
+* [Hardware](https://gitlab.com/wmbhea001/eee3099s-group7/-/tree/main/Hardware) - Contains circuit diagrams
 
-* [Production](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main/PCB) - Contains files relating to materials needed and costs
+* [Production](https://gitlab.com/wmbhea001/eee3099s-group7/-/tree/main/Production) - Contains files relating to materials needed and costs
 
-* [Simulation](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main/PCB/Simulation) - Contains documents neccessary for the fabrication of the HAT
+* [Simulation](https://gitlab.com/wmbhea001/eee3099s-group7/-/tree/main/Simulation) - Contains documents neccessary for the fabrication of the HAT
 
 
 ## Installation
