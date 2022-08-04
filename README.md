@@ -1,6 +1,6 @@
 # EEE3099S Group 7
 
-## Line following robot
+## Maze solver robot
 
 An autonomous mobile robot will be designed to follow a line course that will include turns, deadreckonings and dead-ends. It will receive user input through buttons and give output through LEDs. It will start when an external light turns green.
 
