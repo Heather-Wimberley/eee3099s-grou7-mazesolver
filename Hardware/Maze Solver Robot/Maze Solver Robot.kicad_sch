@@ -1,0 +1,83 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 65.405 48.26) (size 60.325 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3a52f112-cb97-43db-aaeb-20afe27664d7)
+    (property "Sheet name" "Communication" (id 0) (at 65.405 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "communication.kicad_sch" (id 1) (at 65.405 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 142.24 47.625) (size 71.755 36.195) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e42b8b80-020c-4fee-b000-fd91abf3966d)
+    (property "Sheet name" "Colour Light Sensing" (id 0) (at 142.24 46.9134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "coloured-light.kicad_sch" (id 1) (at 142.24 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 63.5 102.235) (size 61.595 34.925) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid edf1a077-1088-4990-81c3-c25e6cc707f4)
+    (property "Sheet name" "Voltage Regulation" (id 0) (at 63.5 101.5234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "regulator.kicad_sch" (id 1) (at 63.5 137.7446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7" (page "2"))
+    (path "/e42b8b80-020c-4fee-b000-fd91abf3966d" (page "3"))
+    (path "/edf1a077-1088-4990-81c3-c25e6cc707f4" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/85806625-d51f-4182-a985-44aab1c3b58d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/c9ec0bf1-c408-4218-82dc-1e856678ad53"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/d95ea8a1-f864-42a4-9c78-0cd287187e0a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/2228514e-5299-4258-98b9-e9cdf9417856"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/5e31b75c-7539-48bc-9313-3ce6611e0cb9"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/68bd9244-ad41-43e6-b7c7-8d19b53f9a7a"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/7e6cef86-5304-43b4-a13e-c8be103e805f"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/e71d8b01-ac1f-48ab-bc7c-1bec1ba57717"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+    (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/fd073802-4dd7-4e04-9b9f-2340f5c8c06c"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+  )
+)
