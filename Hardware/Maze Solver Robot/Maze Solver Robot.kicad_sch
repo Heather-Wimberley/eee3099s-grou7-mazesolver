@@ -76,6 +76,15 @@
     (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/d95ea8a1-f864-42a4-9c78-0cd287187e0a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/edf1a077-1088-4990-81c3-c25e6cc707f4/ebadcc5b-9721-426f-885c-18dfe64b7616"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/edf1a077-1088-4990-81c3-c25e6cc707f4/2e4c93c3-ccbd-4aa6-890e-edeec472811e"
+      (reference "C?") (unit 1) (value "220u") (footprint "")
+    )
+    (path "/edf1a077-1088-4990-81c3-c25e6cc707f4/b25aa567-4d65-478d-b5f6-3024be447982"
+      (reference "C?") (unit 1) (value "10u") (footprint "")
+    )
     (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/2228514e-5299-4258-98b9-e9cdf9417856"
       (reference "D?") (unit 1) (value "LED") (footprint "")
     )
@@ -91,11 +100,14 @@
     (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/7e6cef86-5304-43b4-a13e-c8be103e805f"
       (reference "R?") (unit 1) (value "R_US") (footprint "")
     )
-    (path "/e42b8b80-020c-4fee-b000-fd91abf3966d/cd169261-b377-46f4-9b38-5619229b988a"
-      (reference "R?") (unit 1) (value "A1050") (footprint "OptoDevice:R_LDR_D6.4mm_P3.4mm_Vertical")
+    (path "/edf1a077-1088-4990-81c3-c25e6cc707f4/d4aea666-d9c1-4540-9e7d-952929720166"
+      (reference "R?") (unit 1) (value "240") (footprint "")
     )
     (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/e71d8b01-ac1f-48ab-bc7c-1bec1ba57717"
       (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+    (path "/edf1a077-1088-4990-81c3-c25e6cc707f4/fbb25297-cbc8-46f0-9efe-2186655c973e"
+      (reference "R?") (unit 1) (value "390") (footprint "")
     )
     (path "/3a52f112-cb97-43db-aaeb-20afe27664d7/fd073802-4dd7-4e04-9b9f-2340f5c8c06c"
       (reference "R?") (unit 1) (value "R_US") (footprint "")
