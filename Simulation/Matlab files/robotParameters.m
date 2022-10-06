@@ -6,3 +6,4 @@ load wheelLUT %Look up table for platform motors
 Ts = 0.01; %Sample time
 load wheelMotorModel %Motor model for platform motorswheelMotorModel
 load straight_line.mat
+import pkg.LEDStates.*
