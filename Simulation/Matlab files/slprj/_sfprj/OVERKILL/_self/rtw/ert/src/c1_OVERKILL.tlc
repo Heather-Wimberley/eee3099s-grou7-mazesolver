@@ -7,7 +7,7 @@
 %endfunction
 %function ChartDataMap(block, system) void
   %createrecord ChartDataElements {\
-    NumChartData   16 \
+    NumChartData   14 \
     ChartDataDefaults {\
       RecordType   "ChartData"\
       Dimensions   []\
@@ -42,45 +42,10 @@
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "is_Drive_1cm_3"\
-      Description  "StateActiveChild"\
-      SFName       ""\
-      Path         "Drive_1cm_3"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "is_Drive_1cm_4"\
-      Description  "StateActiveChild"\
-      SFName       ""\
-      Path         "Drive_1cm_4"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "is_Drive_1cm_2"\
-      Description  "StateActiveChild"\
-      SFName       ""\
-      Path         "Drive_1cm_2"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
       Name         "is_Turn_right_91"\
       Description  "StateActiveChild"\
       SFName       ""\
       Path         "Turn_right_91"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "is_Drive_1cm_5"\
-      Description  "StateActiveChild"\
-      SFName       ""\
-      Path         "Drive_1cm_5"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "is_Drive_1cm"\
-      Description  "StateActiveChild"\
-      SFName       ""\
-      Path         "Drive_1cm"\
       SrcLocation  ""\
     }\
     ChartData {\
@@ -105,13 +70,6 @@
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "target"\
-      Description  "ChartLocal"\
-      SFName       ""\
-      Path         "target"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
       Name         "cblack"\
       Description  "ChartLocal"\
       SFName       ""\
@@ -121,6 +79,34 @@
     ChartData {\
       Name         "lastMajorTime"\
       Description  "LastMajorTime"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "presentTime"\
+      Description  "CurrentCount"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "elapsedTime"\
+      Description  "ElapsedCount"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "previousTime"\
+      Description  "PreviousCount"\
       SFName       ""\
       Path         ""\
       SrcLocation  ""\

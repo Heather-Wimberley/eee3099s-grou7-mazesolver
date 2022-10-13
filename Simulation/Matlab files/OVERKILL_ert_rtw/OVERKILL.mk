@@ -2,7 +2,7 @@
 ## Makefile generated for component 'OVERKILL'. 
 ## 
 ## Makefile     : OVERKILL.mk
-## Generated on : Thu Oct 13 11:45:43 2022
+## Generated on : Thu Oct 13 15:51:29 2022
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/OVERKILL.elf
 ## Product type : executable
 ## 
@@ -217,7 +217,7 @@ DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(
 ## SOURCE FILES
 ###########################################################################
 
-SRCS = /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_PWMDriver.c /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_AnalogInput.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_arduino_digitalio.cpp $(START_DIR)/OVERKILL_ert_rtw/OVERKILL.c $(START_DIR)/OVERKILL_ert_rtw/OVERKILL_data.c $(START_DIR)/OVERKILL_ert_rtw/rtGetInf.c $(START_DIR)/OVERKILL_ert_rtw/rtGetNaN.c $(START_DIR)/OVERKILL_ert_rtw/rt_nonfinite.c $(START_DIR)/OVERKILL_ert_rtw/rt_zcfcn.c /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinotarget/registry/../src/MW_ArduinoHWInit.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/io_wrappers.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinotarget/registry/../scheduler/src/arduinoARM_M0plusScheduler.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/armcortexmbase/scheduler/src/m0m1m0plus_multitasking.c
+SRCS = /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_AnalogInput.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_arduino_digitalio.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_PWMDriver.c $(START_DIR)/OVERKILL_ert_rtw/OVERKILL.c $(START_DIR)/OVERKILL_ert_rtw/OVERKILL_data.c $(START_DIR)/OVERKILL_ert_rtw/rtGetInf.c $(START_DIR)/OVERKILL_ert_rtw/rtGetNaN.c $(START_DIR)/OVERKILL_ert_rtw/rt_nonfinite.c $(START_DIR)/OVERKILL_ert_rtw/rt_zcfcn.c /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinotarget/registry/../src/MW_ArduinoHWInit.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/io_wrappers.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinotarget/registry/../scheduler/src/arduinoARM_M0plusScheduler.cpp /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/armcortexmbase/scheduler/src/m0m1m0plus_multitasking.c
 
 MAIN_SRC = $(START_DIR)/OVERKILL_ert_rtw/ert_main.c
 
@@ -227,7 +227,7 @@ ALL_SRCS = $(SRCS) $(MAIN_SRC)
 ## OBJECTS
 ###########################################################################
 
-OBJS = MW_PWM.o MW_PWMDriver.o ArduinoPinHandleMap.o MW_AnalogInput.o MW_arduino_digitalio.o OVERKILL.o OVERKILL_data.o rtGetInf.o rtGetNaN.o rt_nonfinite.o rt_zcfcn.o MW_ArduinoHWInit.o io_wrappers.o arduinoARM_M0plusScheduler.o m0m1m0plus_multitasking.o
+OBJS = MW_AnalogInput.o ArduinoPinHandleMap.o MW_arduino_digitalio.o MW_PWM.o MW_PWMDriver.o OVERKILL.o OVERKILL_data.o rtGetInf.o rtGetNaN.o rt_nonfinite.o rt_zcfcn.o MW_ArduinoHWInit.o io_wrappers.o arduinoARM_M0plusScheduler.o m0m1m0plus_multitasking.o
 
 MAIN_OBJ = ert_main.o
 
@@ -580,24 +580,24 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(LIBS) $(MAIN_OBJ)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-MW_PWM.o : /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp
+MW_AnalogInput.o : /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_AnalogInput.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
-
-
-MW_PWMDriver.o : /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_PWMDriver.c
-	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
 ArduinoPinHandleMap.o : /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-MW_AnalogInput.o : /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_AnalogInput.cpp
-	$(CPP) $(CPPFLAGS) -o "$@" "$<"
-
-
 MW_arduino_digitalio.o : /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_arduino_digitalio.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
+
+
+MW_PWM.o : /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp
+	$(CPP) $(CPPFLAGS) -o "$@" "$<"
+
+
+MW_PWMDriver.o : /Users/noahhavik/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/src/MW_PWMDriver.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
 OVERKILL.o : $(START_DIR)/OVERKILL_ert_rtw/OVERKILL.c
