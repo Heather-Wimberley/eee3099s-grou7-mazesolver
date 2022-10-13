@@ -1,0 +1,130 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   16 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c1_Final"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c1_Final"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Find_Line"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Find_Line"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Turn_right_90"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Turn_right_90"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Drive_1cm_3"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Drive_1cm_3"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Drive_1cm_4"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Drive_1cm_4"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Drive_1cm_2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Drive_1cm_2"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Drive_1cm_5"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Drive_1cm_5"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Drive_1cm"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Drive_1cm"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Turn_180"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Turn_180"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Turn_Left_90"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Turn_Left_90"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Turn_right_91"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Turn_right_91"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "done"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "done"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "target"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "target"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "cblack"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "cblack"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "lastMajorTime"\
+      Description  "LastMajorTime"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
